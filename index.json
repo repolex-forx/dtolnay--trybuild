@@ -1,0 +1,11 @@
+{
+  "org": "dtolnay",
+  "repo": "trybuild",
+  "versions": [
+    {
+      "commit": "56587f36d1931557ea3baf3ea329da9c59ba92bb",
+      "tag": "1.0.116",
+      "parsed_at": "2026-11-22T05:57:04.385040+00:00"
+    }
+  ]
+}
