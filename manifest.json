@@ -79,6 +79,103 @@
       ],
       "ast": [
         "aggregate/ast/56587f36d1931557ea3baf3ea329da9c59ba92bb/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/56587f36d1931557ea3baf3ea329da9c59ba92bb.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "dissimilar",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "dtolnay",
+          "githubRepo": "dissimilar",
+          "githubUrl": "https://github.com/dtolnay/dissimilar",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "glob",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "glob",
+          "githubUrl": "https://github.com/rust-lang/glob",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.194",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "d2d977a6c6dcff237ae956336d18b0c900c61aad",
+          "githubTag": "v1.0.194",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_derive",
+          "ecosystem": "CARGO",
+          "version": "1.0.194",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "d2d977a6c6dcff237ae956336d18b0c900c61aad",
+          "githubTag": "v1.0.194",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.110",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "df5cf215b70fb6341b255e7c0a210c06f64c0669",
+          "githubTag": "v1.0.110",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "termcolor",
+          "ecosystem": "CARGO",
+          "version": "1.0.4",
+          "githubOrg": "BurntSushi",
+          "githubRepo": "termcolor",
+          "githubCommit": "a250e4650a4cc5a4d418acab57d3cf44d522b2ec",
+          "githubTag": "1.0.4",
+          "githubUrl": "https://github.com/BurntSushi/termcolor",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "toml",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "toml-rs",
+          "githubRepo": "toml",
+          "githubUrl": "https://github.com/toml-rs/toml",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "automod",
+          "ecosystem": "CARGO",
+          "version": "1.0.10",
+          "githubOrg": "dtolnay",
+          "githubRepo": "automod",
+          "githubCommit": "78fca0f0aab5f142ce652cb3821c1621f02bacfa",
+          "githubTag": "1.0.10",
+          "githubUrl": "https://github.com/dtolnay/automod",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_core",
+          "ecosystem": "CARGO",
+          "version": "1.0.229",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+          "githubTag": "v1.0.229",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_core-1.0.229/src/de/value.rs"
+        }
       ]
     }
   ],
